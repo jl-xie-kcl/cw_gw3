@@ -62,7 +62,7 @@ h3 {
     text-align:center;
 }
 #gallery {
-    margin: center;
+    margin: 150px;
     display: grid;
     grid-gap: 10px;
     text-align:center;
