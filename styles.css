@@ -1,18 +1,9 @@
 
-head {
-    background-color: rgb(228, 238, 200)
-}
 
 body {
-    background-color: rgb(228, 238, 200);
     background-image:url('https://static.runoob.com/images/mix/paper.gif');
 }
-.container {
-    background-color: rgb(228, 238, 200);
-}
-.introduction {
-    background-color: rgb(228, 238, 200);
-}
+
 h1 {
     color: rgb(126, 128, 23);
     text-align:center;
