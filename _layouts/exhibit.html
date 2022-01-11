@@ -1,19 +1,23 @@
----
----
-
-<head>
+<!doctype html>
+<html>
+    <body>
+        <div class = "container">
+            <header>
+                    <nav>
+                    <a href="/index.html">Gallery</a>
+                    <a href="./about.html">About</a>
+                    <a href="./search.html">Search</a>
+                </nav>
+    <h1 id = "index-heading">Chinese Mianshi Gallery</h1>
+    <h3 id = "index-heading3">An online archive that introduces the characteristics and history of 
+  Mianshi (pasta foods) from 7 regions of China.</h3>
+            </header>
+            <head>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <div class="container">
-        <nav>
-            <a href="{{ site.baseurl }}/">Gallery</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/search">Search</a>
-        </nav>
-    </div>
     <div class="container">
 
         <img src = "{{ page.image-url }}" width = 500>
@@ -27,3 +31,4 @@
         <p>{{ page.l7 }}</p>
     </div>
 </body>
+</html>
