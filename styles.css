@@ -81,3 +81,8 @@ h3 {
         grid-template-columns: repeat(4, 275px); 
     }
   }
+#footer
+{
+    color: rgb(126, 128, 23);
+    text-align:center;
+}
