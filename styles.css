@@ -35,6 +35,11 @@ h3 {
 {
 	display:inline;
 }
+
+#nav a{
+	color:#FFFFFF}
+} 
+
 #nav a:link,a:visited
 {
 	font-weight:bold;
