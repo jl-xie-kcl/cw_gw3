@@ -60,3 +60,30 @@ h3 {
     color: rgb(126, 128, 23);
     text-align:center;
 }
+#gallery {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.grid_cell {
+    align-self: baseline;
+}
+
+@media (min-width: 600px) {
+    #gallery { 
+        grid-template-columns: repeat(2, 275px); 
+    }
+  }
+
+@media (min-width: 900px) {
+    #gallery { 
+        grid-template-columns: repeat(3, 275px); 
+    }
+  }
+
+@media (min-width: 1200px) {
+    #gallery { 
+        grid-template-columns: repeat(4, 275px); 
+    }
+  }
