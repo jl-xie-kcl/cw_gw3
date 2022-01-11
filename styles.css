@@ -61,11 +61,10 @@ h3 {
     text-align:center;
 }
 #gallery {
-    margin: 0 auto;
+    margin: 50px;
     display: grid;
     grid-gap: 10px;
     text-align:center;
-    margin:20px;
 }
 
 .grid_cell {
