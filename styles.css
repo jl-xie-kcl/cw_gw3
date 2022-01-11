@@ -21,7 +21,9 @@ h3 {
     text-align:center;
   }
   
-ul
+
+
+#nav ul
 {
 	list-style-type:none;
 	margin:0;
@@ -29,11 +31,11 @@ ul
 	padding-top:6px;
 	padding-bottom:6px;
 }
-li
+#nav li
 {
 	display:inline;
 }
-a:link,a:visited
+#nav a:link,a:visited
 {
 	font-weight:bold;
 	color:#FFFFFF;
@@ -43,7 +45,7 @@ a:link,a:visited
 	text-decoration:none;
 	text-transform:uppercase;
 }
-a:hover,a:active
+#nav a:hover,a:active
 {
 	background-color:#7A991A;
 }
