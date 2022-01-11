@@ -5,7 +5,7 @@
 title: Chinese mianshi
 layout: index
 ---
-
+<div id = "gallery">
 {% for exhibit in site.exhibits %}
 
   {% assign licence_url = site.data.licences | find: "licence", exhibit.licence %}
@@ -15,3 +15,4 @@ layout: index
   <p><a href="{{ licence_url.url }}">{{ exhibit.licence }}</a></p>
 
 {% endfor %}
+</div>
