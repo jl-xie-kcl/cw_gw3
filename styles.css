@@ -13,6 +13,12 @@ h3 {
     text-align:center;
   }
   
+#page-text
+{
+    height:100px;
+    display:-webkit-box;
+    -webkit-box-align:center; /* vertical center*/
+}
 
 
 #nav ul
