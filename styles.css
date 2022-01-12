@@ -84,6 +84,8 @@ h3 {
 
 
 
+
+
 #footer
 {
     color: rgb(126, 128, 23);
@@ -91,8 +93,14 @@ h3 {
     bottom: 0
 }
 
-#search-input{
-    width: 650 px;
-    height: 40 px;
-    border: 1px solid #b8b8b8
+.Site{
+  display: flex; 
+  min-height: 100vh:
+  flex-direction: column;
+  
 }
+
+.container{
+    flex: 1
+}
+
