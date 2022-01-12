@@ -93,5 +93,6 @@ h3 {
 
 .search-input{
     width: 650 px;
-    height: 40 px
+    height: 40 px;
+    border: 1px solid #b8b8b8
 }
