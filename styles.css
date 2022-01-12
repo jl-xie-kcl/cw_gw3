@@ -90,3 +90,8 @@ h3 {
     text-align:center;
     bottom: 0
 }
+
+.search-input{
+    width: 650 px;
+    height: 40 px
+}
