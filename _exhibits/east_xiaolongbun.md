@@ -12,6 +12,6 @@ l3: It was invented by Huang Mingxian, the owner of Rihua Xuan.
 l4: After Xiaolong Bun was invented and became famous inside Nanxiang, people from Nanxiang but living in Shanghai hired cooks from Nanxiang, and made it famous around China.
 
 l5: photo by wikipedia user <a href="https://commons.wikimedia.org/wiki/File:Xiaolongbao_Shanghai.jpg">Robigasp</a>
-l5: reference https://web.archive.org/web/20160305034512/  http://www.shtong.gov.cn/newsite/node2/node71994/node72081/node72092/node72132/userobject1ai77617.html
-l6: <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
+l6: reference <a href="https://web.archive.org/web/20160305034512/http://www.shtong.gov.cn/newsite/node2/node71994/node72081/node72092/node72132/userobject1ai77617.html">Shanghai Chorography</a>
+l7: <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>
 ---
