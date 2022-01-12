@@ -6,22 +6,27 @@
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <div class="container" id = "nav">
-        <nav>
-            <a href="{{ site.baseurl }}/">Gallery</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/search">Search</a>
-        </nav>
-    </div>
-     <div class="intro">
-    <h1 id = "index-heading">Chinese Mianshi Gallery</h1>
-    <h3 id = "index-heading3">An online archive that introduces the characteristics and history of 
-  Mianshi (pasta foods) from 7 regions of China.</h3>
-     </div>
-    <div class="container">
-        {{ content }}
-    </div>
+<body class = "Site">
+    <header>
+        <div class="container" id = "nav">
+            <nav>
+                <a href="{{ site.baseurl }}/">Gallery</a>
+                <a href="{{ site.baseurl }}/about">About</a>
+                <a href="{{ site.baseurl }}/search">Search</a>
+            </nav>
+        </div>
+        <div class="intro">
+        <h1 id = "index-heading">Chinese Mianshi Gallery</h1>
+        <h3 id = "index-heading3">An online archive that introduces the characteristics and history of 
+      Mianshi (pasta foods) from 7 regions of China.</h3>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            {{ content }}
+        </div>
+    </main>
     
     <footer>
             <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for introducing Chinese characteristic mianshi by <a href = "https://github.com/jl-xie-kcl/cw_gw3">Chinese mianshi group: </a> in 2021</p>
