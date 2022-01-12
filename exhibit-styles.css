@@ -1,0 +1,106 @@
+
+
+body {
+    background-image:url('https://cdn.pixabay.com/photo/2014/01/23/21/33/pink-250774_1280.jpg');
+	
+}  
+h1 {
+    color: rgb(126, 128, 23);
+    text-align:center;
+  }
+h3 {
+    color: rgb(141, 158, 62);
+    text-align:center;
+  }
+  
+
+
+#nav ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0 10px;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+#nav li
+{
+	display:inline;
+}
+
+#nav a{
+	color:#9dbd38
+} 
+
+#nav a:link,a:visited
+{
+	font-weight:bold;
+	color:#0000FF;
+	background-color:#c7da77;
+	text-align:center;
+	padding:6px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#nav a:hover, a:active
+{
+	background-color:#7A991A;
+}
+
+#search-container
+{
+    color: rgb(126, 128, 23);
+    text-align:center;
+}
+#gallery {
+    margin: 65px;
+    display: grid;
+    grid-gap: 10px;
+    text-align:center;
+}
+
+.grid_cell {
+    align-self: baseline;
+}
+
+@media (min-width: 600px) {
+    #gallery { 
+        grid-template-columns: repeat(2, 275px); 
+    }
+  }
+
+@media (min-width: 900px) {
+    #gallery { 
+        grid-template-columns: repeat(3, 275px); 
+    }
+  }
+
+@media (min-width: 1200px) {
+    #gallery { 
+        grid-template-columns: repeat(4, 275px); 
+    }
+  }
+
+
+
+
+
+
+#footer
+{
+    color: rgb(126, 128, 23);
+    text-align:center;
+    bottom: 0
+}
+
+.Site{
+  display: flex; 
+  min-height: 100vh:
+  flex-direction: column;
+  
+}
+
+.container{
+    flex: 1
+}
+
