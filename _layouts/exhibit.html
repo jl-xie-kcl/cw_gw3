@@ -1,40 +1,43 @@
----
----
+
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+        <!-- <body style = "background-image:url('https://cdn.pixabay.com/photo/2014/01/23/21/33/pink-250774_1280.jpg')"></body> -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
     <body>
-        <div class = "container">
-            <header>
-            <div class = "container" id = "nav">
-                <nav>
-                    <a href="/index.html">Gallery</a>
-                    <a href="/about.html">About</a>
-                    <a href="/search.html">Search</a>
-                </nav>
-    <h1 id = "index-heading" style = "color: rgb(126, 128, 23); text-align: center">Chinese Mianshi Gallery</h1>
-    <h3 id = "index-heading3" style = "color: rgb(141, 158, 62); text-align: center">An online archive that introduces the characteristics and history of 
-  Mianshi (pasta foods) from 7 regions of China.</h3>
-
-            </header>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <body style = "background-image:url('https://cdn.pixabay.com/photo/2014/01/23/21/33/pink-250774_1280.jpg')"></body>
-</head>
-    <div class="container">
-
-        <img src = "{{ page.image-url }}" width = 500>
-        <p>{{ page.title }} </p>
-        <p>{{ page.l1 }}</p>
-        <p>{{ page.l2 }}</p>
-        <p>{{ page.l3 }}</p>
-        <p>{{ page.l4 }}</p>
-        <p>{{ page.l5 }}</p>
-        <p>{{ page.l6 }}</p>
-        <p>{{ page.l7 }}</p>
-        <div id = "footer">
-            <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for introducing Chinese characteristic mianshi <a href = "https://github.com/jl-xie-kcl/cw_gw3">by Chinese mianshi group</a> in 2021</p>
+        <div class="container" id = "nav">
+            <nav>
+                <a href="{{ site.baseurl }}/">Gallery</a>
+                <a href="{{ site.baseurl }}/about">About</a>
+                <a href="{{ site.baseurl }}/search">Search</a>
+            </nav>
         </div>
-    </div>
+         <div class="intro">
+        <h1 id = "index-heading">Chinese Mianshi Gallery</h1>
+        <h3 id = "index-heading3">An online archive that introduces the characteristics and history of 
+      Mianshi (pasta foods) from 7 regions of China.</h3>
+         </div>
+        
+        <div class="container">
+
+            <img src = "{{ page.image-url }}" width = 500>
+            <p>{{ page.title }} </p>
+            <p>{{ page.l1 }}</p>
+            <p>{{ page.l2 }}</p>
+            <p>{{ page.l3 }}</p>
+            <p>{{ page.l4 }}</p>
+            <p>{{ page.l5 }}</p>
+            <p>{{ page.l6 }}</p>
+            <p>{{ page.l7 }}</p>
+        </div>
+        <div id = "footer">
+            <p>Created with <a href = "https://jekyllrb.com/">Jekyll</a> for introducing Chinese characteristic mianshi by <a href = "https://github.com/jl-xie-kcl/cw_gw3">Chinese mianshi group</a> in 2021</p>
+        </div>
     </body>
+    
+    
 </html>
